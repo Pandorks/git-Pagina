@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left:auto;
+    margin-right: auto;
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sedgwick Ave', cursive;
+*/
+.con{
+    color:white;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;        
+}
+li a:hover{
+    transition: 1s;
+    color: white;
+    background-color:rgb(240, 53, 53);
+}
+li a{
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px;
+    color:white;
+}
+.submenu1{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: none;
+}
+.submenu1 > li > a{
+    display: block;
+}
+.submenu1 li a:hover{
+    transition: all 3s;
+    color: #ffff;
+    text-decoration: none;
+}
+.menu li:hover .submenu1 {
+    display: block;
+}
+.col{
+    color:rgb(209, 50, 36);
+    font-weight: bold;
+}
+.center{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+.fondo{
+    background-image: linear-gradient(to top, rgba(255, 8, 70, 0.434) 0%, rgba(255, 177, 153, 0.455) 100%),url(img/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.fondo2{
+    background-image: linear-gradient(to right, #434343 0%, rgba(0, 0, 0, 0.448) 100%),url(img/max-duzij-qAjJk-un3BI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
